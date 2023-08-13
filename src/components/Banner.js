@@ -1,9 +1,10 @@
-
+import styles from './styling.css'
 
 function Banner () {
     return (
-    <><header>Orbit Report</header>
+    <div>
+    <header>Orbit Report</header>
     <p>Click on the buttons to see the satellites in that orbit type</p>
-    </>
+    </div>
 )};
 export default Banner
